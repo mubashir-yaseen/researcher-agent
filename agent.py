@@ -2,7 +2,7 @@ import os
 import json
 import requests
 from typing import Dict, Any
-from .models import ResearchOutput, Source
+from models import ResearchOutput, Source
 from .free_search import FreeSearch
 from .scorer import CredibilityScorer
 from .vector_cache import VectorCache
